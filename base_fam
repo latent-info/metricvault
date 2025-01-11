@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swing_Bband</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <hr class="divider">
+        
+        <div class="header">
+            <div class="info">
+                <div class="date"><span class="title-text">TIGER 미국나스닥100(133690)</span>  $now_tiger_nasdaq</div>
+                <div class="info-group">
+                    <div class="info-item">
+                        <span class="label">시작가(금일): </span>
+                        <span class="value">$open_today</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">종가(어제): </span>
+                        <span class="value">$close_yesterday</span>
+                    </div>
+                </div>
+                <div class="info-group">
+                    <div class="info-item">
+                        <span class="label">종가(어제) * 1.1: </span>
+                        <span class="value">$close_yesterday_plus1</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">20일 이동평균: </span>
+                        <span class="value">$ma20</span>
+                    </div>
+                </div>
+                <div class="info-group">
+                    <div class="info-item">
+                        <span class="label">이격도: </span>
+                        <span class="value">$deviation</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="alert-label">신호: </span>
+                        <span class="value">$alert</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="tiger_nasdaq_chart.png" alt="Tiger Nasdaq Chart">
+        </div>
+
+        <hr class="divider">
+
+    </div>
+</body>
+</html>
